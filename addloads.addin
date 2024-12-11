@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>addloads - Command 1</Text>
+    <Description>Some description</Description>
+    <Assembly>addloads\addloads.dll</Assembly>
+    <FullClassName>addloads.Command1</FullClassName>
+    <ClientId>a9570be8-0a27-42c6-a307-d7a62e974023</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Text>addloads - Command 2</Text>
+    <Description>Some description</Description>
+    <Assembly>addloads\addloads.dll</Assembly>
+    <FullClassName>addloads.Command2</FullClassName>
+    <ClientId>9b9f8fa7-1a16-4db0-954e-75b54ffc5bb0</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>addloads</Name>
+    <Assembly>addloads\addloads.dll</Assembly>
+    <FullClassName>addloads.App</FullClassName>
+    <ClientId>7c4ed985-71af-43b9-a47e-862406a2175c</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+</RevitAddIns>
